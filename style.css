@@ -1,0 +1,145 @@
+h1{
+    font-family: 'Kalam', cursive;
+    text-align: center;
+    color: chocolate;
+    font-size: 100px;
+}
+body {
+ background-image: url("bd.jpg");
+ background-color: #cccccc;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+html,body{
+  height:100%
+}
+
+.bg_heart {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow:hidden;
+ }
+
+.heart {
+    position: absolute;
+    top: -50%;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -m-transform: rotate(-45deg);
+    transform: rotate(-45deg)
+ }
+
+.heart:before {
+    position: absolute;
+    top: -50%;
+    left: 0;
+    display: block;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    border-radius: 100%;
+}
+
+.heart:after {
+    position: absolute;
+    top: 0;
+    right: -50%;
+    display: block;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    border-radius: 100%;
+}
+
+@-webkit-keyframes love {
+  0%{top:110%}
+}
+@-moz-keyframes love {
+  0%{top:110%}
+}
+@-ms-keyframes love {
+  0%{top:110%}
+}
+@keyframes love {
+  0%{top:110%}
+}
+#audio{
+  text-align: center;
+}
+html {
+  font-family: "Helvetica Neue", sans-serif;
+  
+  color: #666666;
+  text-align: center;
+}
+
+.popup-overlay {
+  /*Hides pop-up when there is no "active" class*/
+  visibility: hidden;
+  position: absolute;
+  background-color: khaki;
+  border: 3px solid #666666;
+  border-radius: 20px;
+  width: 400px;
+  height: 220px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.popup-overlay.active {
+  /*displays pop-up when "active" class is present*/
+  visibility: visible;
+  text-align: center;
+}
+
+.popup-content {
+  /*Hides pop-up content when there is no "active" class */
+  visibility: hidden;
+    color: red;
+    font-family: mirza;
+    font-size: 24px;
+
+  
+}
+.popup-content.active {
+  /*Shows pop-up content when "active" class is present */
+  visibility: visible;
+}
+
+button {
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 30px;
+  margin: .20rem;
+  font-size: 1rem;
+  color:red;
+  background: #ffffff;
+  border: 1px solid #666666;
+
+}
+
+button:hover {
+  border: 1px solid #666666;
+  background: #666666;
+  color: #ffffff;
+}
+.music{
+    color: red;
+    font-family: monospace;
+}
+.r{ background: url(le.jpg);
+    height: 200px;
+    color: red;
+    font-family: merienda;
+    background-repeat:no-repeat;
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    border: 1px solid white;
+    border-radius: 20px;
+}
